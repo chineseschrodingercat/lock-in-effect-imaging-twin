@@ -16,11 +16,11 @@ This platform enables researchers to simulate realistic diagnostic imaging scena
 ![Simulated ON/OFF Images](assets/Simulation_Grid_2x4.png)
 
 ### 2. Algorithm Benchmark Showdown
-> **Figure 2:** Comparison of classical imaging techniques against the Digital Lock-In method. The graph illustrates how lock-in integration suppresses the background noise floor, lowering the LOD as integration cycles increase.
+> **Figure 2:** Comparison of classical imaging techniques against the Digital Lock-In method. The graph illustrates how lock-in integration suppresses the background noise floor, lowering the LOD as integration cycles increase. Error bars represent the standard deviation of raw flux across replicates.
 ![Benchmark Showdown](assets/Benchmark_Showdown_Quad_ErrorBars.png)
 
 ### 3. Lock-In Performance Optimization
-> **Figure 3:** Dynamic performance of the Lock-In Amplifier across multiple replicates. The inclusion of standard deviation error bars highlights the statistical repeatability of the system even at extreme signal-to-noise ratios.
+> **Figure 3:** Dynamic performance of the Lock-In Amplifier over time. The Limit of Detection (LOD) at each checkpoint is deterministically calculated by pooling the statistical variance across all replicates to ensure rigorous curve fitting. The algorithm automatically flags the optimal integration cycle (lowest LOD) required to achieve maximum assay sensitivity.
 ![Optimization Curve](assets/LockIn_Optimization_Curve.png)
 
 ---
