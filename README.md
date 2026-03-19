@@ -1,4 +1,4 @@
-# 🔬 FluoroLock: Digital Twin Simulator for Fluorescent Nanodiamond Assays
+# FluoroLock: Digital Twin Simulator for Fluorescent Nanodiamond Assays
 **Version:** 2.0.0 (Parallel Architecture)
 
 FluoroLock is a highly modular, multithreaded digital twin physics engine and algorithmic evaluator for widefield Fluorescence Nanodiamond (FND) imaging. It is specifically designed to simulate and optimize point-of-care (POCT) optical setups, such as Raspberry Pi-based microscopes, for Digital Western Blots and Lateral Flow Assays (LFA).
@@ -77,7 +77,7 @@ data/
 
 ---
 
-## 🎛️ PART 1: Routine Sweep Controls (`main.py`)
+## PART 1: Routine Sweep Controls (`main.py`)
 
 These are the frequently changed parameters that govern your experimental matrix. They dictate *what* you are testing and sweeping. Modify these directly inside `main.py`.
 
@@ -95,7 +95,7 @@ These are the frequently changed parameters that govern your experimental matrix
 
 ---
 
-## ⚙️ PART 2: Advanced Physics & Algorithmic Settings (`config.py`)
+## PART 2: Advanced Physics & Algorithmic Settings (`config.py`)
 
 These are the deep-engine variables. They define the physical realities of the biological sample, the optical train, and the mathematical thresholds for the algorithms. Modify these inside `config.py`.
 
